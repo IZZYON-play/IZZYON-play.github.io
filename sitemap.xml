@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://izzyon-play.github.io/</loc>
-  </url>
+  <url><loc>https://izzyon-play.github.io/</loc></url>
+  <url><loc>https://izzyon-play.github.io/projects/</loc></url>
+  <url><loc>https://izzyon-play.github.io/worksheets/</loc></url>
+  <url><loc>https://izzyon-play.github.io/free/</loc></url>
+  <url><loc>https://izzyon-play.github.io/playground/</loc></url>
+  <url><loc>https://izzyon-play.github.io/about/</loc></url>
+  <url><loc>https://izzyon-play.github.io/teachers/</loc></url>
+  <url><loc>https://izzyon-play.github.io/projects/dino/</loc></url>
+  <url><loc>https://izzyon-play.github.io/projects/car/</loc></url>
+  <url><loc>https://izzyon-play.github.io/projects/dog/</loc></url>
+  <url><loc>https://izzyon-play.github.io/projects/food/</loc></url>
+  <url><loc>https://izzyon-play.github.io/projects/insect/</loc></url>
+  <url><loc>https://izzyon-play.github.io/projects/dessert/</loc></url>
+  <url><loc>https://izzyon-play.github.io/projects/princess/</loc></url>
+  <url><loc>https://izzyon-play.github.io/projects/camp/</loc></url>
+  <url><loc>https://izzyon-play.github.io/worksheets/kimjang/</loc></url>
+  <url><loc>https://izzyon-play.github.io/worksheets/halloween/</loc></url>
+  <url><loc>https://izzyon-play.github.io/worksheets/hangul/</loc></url>
+  <url><loc>https://izzyon-play.github.io/worksheets/gaecheon/</loc></url>
+  <url><loc>https://izzyon-play.github.io/worksheets/chuseok/</loc></url>
+  <url><loc>https://izzyon-play.github.io/worksheets/autumnharvest/</loc></url>
+  <url><loc>https://izzyon-play.github.io/worksheets/campcraft/</loc></url>
+  <url><loc>https://izzyon-play.github.io/worksheets/foodcraft/</loc></url>
+  <url><loc>https://izzyon-play.github.io/worksheets/liberation/</loc></url>
+  <url><loc>https://izzyon-play.github.io/worksheets/summer_squishy/</loc></url>
+  <url><loc>https://izzyon-play.github.io/worksheets/swim/</loc></url>
+  <url><loc>https://izzyon-play.github.io/worksheets/constitution/</loc></url>
+  <url><loc>https://izzyon-play.github.io/worksheets/autumnfree/</loc></url>
+  <url><loc>https://izzyon-play.github.io/free/dino-day1/</loc></url>
+  <url><loc>https://izzyon-play.github.io/sets/best5/</loc></url>
 </urlset>

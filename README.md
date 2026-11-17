@@ -1,24 +1,24 @@
-# IZZYON 공식 홈페이지
+# IZZYON 공식 홈페이지 · SEO v1.7
 
-IZZYON의 프린트 활동지와 5일 놀이 프로젝트를 소개하는 정적 웹사이트입니다. 상품 구매·다운로드는 외부 판매처 크티에서 처리됩니다.
+기존 v1.6 사이트를 유지하면서 정적 HTML 독립 주소 30개(홈 1개 + 안내/목록 6개 + 상품 23개)로 전환한 배포본입니다.
 
-## GitHub Pages 배포
+- 5일 프로젝트: `/projects/dino/` 등 8개
+- 간편/테마 활동지: `/worksheets/kimjang/` 등 13개(12종 + 가을 활동지)
+- 무료 DAY1 체험판: `/free/dino-day1/`
+- 5종 묶음: `/sets/best5/`
+- 나머지 독립 목록/소개: `/projects/`, `/worksheets/`, `/free/`, `/playground/`, `/about/`, `/teachers/`
 
-1. 이 저장소의 기본 브랜치를 `main`으로 지정합니다.
-2. `index.html`, `assets/`, `.nojekyll`이 저장소 **최상위 경로**에 있는지 확인합니다.
-3. **Settings → Pages → Build and deployment → Source: Deploy from a branch**를 선택합니다.
-4. Branch `main`, folder `/(root)`를 선택하고 Save를 누릅니다.
-5. Pages 설정의 사이트 주소가 표시되면 실제 페이지 표시·모바일·크티 링크를 검증합니다.
+사이트맵에 30개의 URL을 넣고 페이지마다 고유한 제목·설명·canonical·OG·JSON-LD 기본 정보를 적용했습니다. 정적 HTML에 실제 상세페이지 콘텐츠가 포함되어 있으며, JavaScript는 기존 상호작용을 유지합니다.
 
-## 보안 및 상품 관련
+## 기존 GitHub Desktop 저장소에 덮어쓰기
+1. 현재 `IZZYON-play.github.io` 저장소 폴더를 백업하세요.
+2. 이 배포본 ZIP의 **내용물**을 저장소 최상위에 복사하고 중복 파일을 덮어쓰세요. ZIP 자체나 상위 폴더를 복사하면 안 됩니다.
+3. **이미 업로드한 `naver...html` 및 `google...html` 인증 파일과 `.git` 폴더는 삭제하면 안 됩니다.** 이 ZIP에 인증 파일이 없어도 기존 파일을 그대로 유지하면 됩니다.
+4. GitHub Desktop에서 변경 파일을 확인한 뒤 `Commit to main` → `Push origin`을 누르세요.
+5. 배포 후 `/projects/dino/`, `/worksheets/kimjang/`, `/sitemap.xml` 주소를 직접 확인하세요.
+6. 네이버·구글 서치콘솔에 **기존 sitemap.xml 주소를 다시 제출하거나 재검사**하세요. 새 상품 URL은 색인·노출이 보장되지 않습니다.
 
-- 구매자 전용 디지털 World에 연결되는 QR 및 직접 접속 주소는 공개 저장소에 올리지 않습니다.
-- 본 저장소에는 실제 유료 PDF 원본을 포함하지 않고 공개용 미리보기 이미지만 사용합니다.
-- 문의용 이메일 등 사이트에 표시된 정보는 공개되므로, 게시 전 내용을 확인하세요.
-- 무료 상품 제공 조건과 크티 외부 결제/다운로드는 판매처의 현재 안내를 확인하세요.
-
-## 편집
-
-브라우저에서 `index.html`을 열면 사이트를 확인할 수 있습니다. GitHub Pages는 사이트를 정적으로 배포하고 내부 페이지 이동은 `#/` 형식의 해시 라우팅을 사용합니다.
-
-© IZZYON. All rights reserved.
+## 주의
+- 기존 해시 링크 `/#/projects/dino`는 가능하면 정규 경로로 변경해 주세요. 초기 접근용 호환 처리를 넣었습니다.
+- 향후 상품 정보 업데이트 시 새 폴더의 index.html과 공통 app.js 내용이 서로 맞아야 합니다.
+- 실제 브라우저 렌더링은 일부 실행 환경에서 제한될 수 있습니다. 배포 후 본인 PC와 휴대폰에서 확인하세요.

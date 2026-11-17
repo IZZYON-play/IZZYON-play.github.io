@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://izzyon-play.github.io/sitemap.xml
